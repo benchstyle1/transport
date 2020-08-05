@@ -5,7 +5,7 @@ export default {
     return {
       vehicles: [],
       currentVehicle: {},
-      isError: true,
+      isError: false,
       isDark: false,
     };
   },
