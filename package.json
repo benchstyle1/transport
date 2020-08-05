@@ -1,0 +1,17 @@
+{
+  "name": "transport",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --spa",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.14.0",
+    "vue-css-modules": "^1.2.0"
+  },
+  "devDependencies": {}
+}

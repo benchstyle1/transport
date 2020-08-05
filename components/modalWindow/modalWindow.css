@@ -1,0 +1,258 @@
+.modal-background {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: table;
+  transition: opacity 0.3s ease;
+  background: rgba(52, 79, 106, 0.32);
+  backdrop-filter: blur(32px);
+}
+
+.modal-wrapper {
+  width: 600px;
+  height: 100%;
+  background: #fcfcfc;
+  border-radius: 48px 0 0 48px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-frame {
+  width: 456px;
+  height: 772px;
+  padding: 64px 72px;
+}
+
+.modal-header {
+  display: flex;
+  height: 48px;
+}
+
+.modal-header h5 {
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: #012345;
+  margin: 0 91px 0 0;
+}
+
+.modal-header button {
+  width: 48px;
+  height: 48px;
+  background: #f3f4f7;
+  border-radius: 16px;
+  border: none;
+}
+
+.image-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-field {
+  width: 100%;
+  height: 348px;
+  background: #f3f4f7;
+  border-radius: 24px;
+  margin: 40px 0 24px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-field-wrapper > input {
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+}
+
+.image-field-wrapper > input:hover,
+.image-field-wrapper svg:hover {
+  cursor: pointer;
+}
+
+.image-field-wrapper svg {
+  overflow: visible;
+  margin: 15px 0 0 -34px;
+}
+
+.image-field-wrapper {
+  width: 48px;
+  height: 48px;
+  background: #fcfcfc;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-type {
+  width: 456px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-form input,
+.input-form select {
+  width: 206px;
+  height: 56px;
+  background-color: #f3f4f7;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  color: #677b8f;
+  border: none;
+  padding: 0 0 0 20px;
+  appearance: none;
+}
+
+.type {
+  width: 206px;
+  display: flex;
+}
+
+.type > svg {
+  margin: 25px 0 0 -28px;
+}
+
+.input-form > input,
+.rent-price > input {
+  width: 436px;
+  margin: 24px 0 0 0;
+}
+
+.input-form > button {
+  width: 100%;
+  height: 56px;
+  left: 912px;
+  top: 780px;
+  background: #4959ff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 14px;
+  color: #fcfcfc;
+  border-radius: 12px;
+  border: none;
+  margin: 40px 0 0 0;
+}
+
+.rent-price {
+  display: flex;
+  flex-direction: row;
+}
+
+.rent-price > span {
+  height: 14px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: right;
+  color: #99a7b5;
+  margin: 45px 0 0 -47px;
+}
+
+@media all and (max-width: 375px) {
+  .modal-wrapper {
+    height: 765px;
+    width: 375px;
+    margin-top: 47px;
+    border-radius: 24px 24px 0 0;
+  }
+
+  .modal-frame {
+    height: 690px;
+    padding: 28px 16px;
+  }
+
+  .modal-header {
+    height: 29px;
+  }
+
+  .modal-header h5 {
+    height: 29px;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 0 125px 0 0;
+  }
+
+  .modal-header button {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+
+  .modal-header button > svg {
+    height: 11px;
+    width: 11px;
+  }
+
+  .image-field {
+    width: 343px;
+    height: 260px;
+  }
+
+  .image-field-wrapper {
+    border-radius: 8px;
+  }
+
+  .image-field-wrapper,
+  .image-field-wrapper > input {
+    width: 32px;
+    height: 32px;
+  }
+
+  .image-field-wrapper svg {
+    margin: 6px 0 0 -26px;
+  }
+
+  .name-type {
+    flex-direction: column;
+  }
+
+  .type,
+  .type select {
+    width: 343px;
+  }
+
+  .input-form input {
+    width: 323px;
+    height: 52px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .type,
+  .rent-price > input,
+  .input-form > input {
+    margin-top: 16px;
+  }
+
+  .input-form > button {
+    width: 343px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 24px 0 0 0;
+  }
+
+  .rent-price > span {
+    font-size: 14px;
+    line-height: 12px;
+    margin: 35px 0 0 -38px;
+  }
+}

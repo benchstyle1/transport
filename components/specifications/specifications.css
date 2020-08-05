@@ -1,0 +1,43 @@
+.specifications {
+  margin: 32px 0 0 0;
+}
+
+.specifications p {
+  width: 532px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 146%;
+  color: #677b8f;
+  margin: 14px 0 0 0;
+}
+
+.specifications h5 {
+  width: 106px;
+  height: 21px;
+  display: block;
+  margin: 32px 0 16px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 21px;
+  color: #012345;
+}
+
+@media all and (max-width: 375px) {
+  .specifications {
+    margin: 0;
+  }
+
+  .specifications p {
+    width: 343px;
+    margin: 0;
+  }
+
+  .specifications h5 {
+    height: 28px;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 20px 0 4px 0;
+  }
+}

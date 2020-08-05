@@ -1,0 +1,138 @@
+.card {
+  width: 373.33px;
+  height: 164px;
+  background: #fcfcfc;
+  border-radius: 32px;
+  display: flex;
+  display: -ms-flexbox;
+}
+.card:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+} 
+
+.card:nth-child(2) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 1;
+} 
+
+.card:nth-child(3) {
+  -ms-grid-column: 5;
+  -ms-grid-row: 1;
+} 
+
+.card:nth-child(4) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 3;
+}
+
+.card:nth-child(5) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 3;
+}
+
+.card:nth-child(6) {
+  -ms-grid-column: 5;
+  -ms-grid-row: 3;
+} 
+
+.card:nth-child(7) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 5;
+}
+
+.card:nth-child(8) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 5;
+}
+
+.card:nth-child(9) {
+  -ms-grid-column: 5;
+  -ms-grid-row: 5;
+} 
+.card:nth-child(10) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 7;
+}
+
+.card:nth-child(11) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 7;
+}
+
+.card:nth-child(12) {
+  -ms-grid-column: 5;
+  -ms-grid-row: 7;
+} 
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card img {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 24px 0 0 32px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.info {
+  margin: 16px 0 0 24px;
+}
+.info h4 {
+  height: 14px;
+  font-family: Codec Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 14px;
+  color: #012345;
+}
+
+.info p:first-of-type {
+  width: 197px;
+  height: 36px;
+  font-family: Codec Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #677b8f;
+}
+
+.info p:last-of-type {
+  height: 21px;
+  font-family: Codec Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f84ab3;
+}
+
+@media all and (max-width: 375px) {
+  .card {
+    width: 343px;
+    height: 151px;
+    border-radius: 24px;
+  }
+
+  .card img {
+    margin: 20px 0 0 20px;
+  }
+
+  .info {
+    margin: 20px 0 0 20px;
+  }
+
+  .info > h4 {
+    margin: 12px 0 0 0;
+  }
+
+  .info p:first-of-type {
+    margin: 12px 0 16px 0;
+  }
+  
+}

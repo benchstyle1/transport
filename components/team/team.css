@@ -1,0 +1,50 @@
+.team {
+  margin: 32px 0 0 0;
+}
+
+.team h5 {
+  height: 21px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 21px;
+  color: #012345;
+}
+
+.team p:first-of-type {
+  width: 532px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 146%;
+  color: #677b8f;
+}
+
+.team p:last-of-type {
+  width: 532px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 146%;
+  color: #677b8f;
+}
+
+@media all and (max-width: 375px) {
+  .team,
+  .team p:first-of-type {
+    width: 343px;
+    margin: 0;
+  }
+
+  .team h5 {
+    height: 28px;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 20px 0 0 0;
+  }
+
+  .team p:last-of-type {
+    width: 343px;
+    margin: 20px 0 0 0;
+  }
+}

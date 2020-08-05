@@ -1,0 +1,40 @@
+.rent-terms {
+  margin: 32px 0 0 0;
+}
+
+.rent-terms p {
+  width: 532px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 146%;
+  color: #677b8f;
+}
+
+.rent-terms h5 {
+  height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 152%;
+  color: #012345;
+}
+
+@media all and (max-width: 375px) {
+  .rent-terms {
+    width: 343px;
+    margin: 0;
+  }
+
+  .rent-terms p {
+    width: 343px;
+  }
+
+  .rent-terms p:nth-of-type(2) {
+    margin: 8px 0 0 0;
+  }
+
+  .rent-terms h5 {
+    margin: 16px 0;
+  }
+}

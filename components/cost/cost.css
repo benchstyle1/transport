@@ -1,0 +1,95 @@
+.cost {
+  width: 536px;
+  height: 80px;
+  background: #f3f4f7;
+  border-radius: 16px;
+  margin: 45px 0 0 0;
+  display: flex;
+  display: -ms-flexbox;
+}
+
+.cost span {
+  height: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.cost span:first-of-type {
+  color: #012345;
+  width: 90px;
+  margin: 26px 0 0 32px;
+}
+
+.cost span:last-of-type {
+  color: #f84ab3;
+  margin: 26px 150px 0 5px;
+  width: 90px;
+}
+
+.cost button {
+  width: 136px;
+  height: 48px;
+  background: #4959ff;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  margin: 16px 32px 0 0;
+}
+
+.cost button:hover {
+  cursor: pointer;
+}
+
+@media all and (max-width: 375px) {
+  .cost {
+    width: 343px;
+    height: 68px;
+    margin: 32px 0;
+  }
+
+  .cost span {
+    height: 22px;
+    font-size: 16px;
+  }
+
+  .cost span:first-of-type {
+    margin: 23px 0 0 24px;
+  }
+
+  .cost span:last-of-type {
+    margin: 23px 55px 0 5px;
+    width: 100px;
+  }
+
+  .cost button {
+    margin: 12px 24px 0 0;
+  }
+}
+
+@media all and (max-height: 812px) and (max-width: 375px) {
+  .cost {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 32px;
+  }
+
+  .cost span {
+    height: 22px;
+    font-size: 16px;
+  }
+
+  .cost span:first-of-type {
+    margin: 23px 0 0 24px;
+  }
+
+  .cost span:last-of-type {
+    margin: 23px 55px 0 5px;
+    width: 100px;
+  }
+
+  .cost button {
+    margin: 12px 24px 0 0;
+  }
+}

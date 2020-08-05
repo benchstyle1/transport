@@ -1,0 +1,101 @@
+.grid-header {
+  display: flex;
+  display: -ms-flexbox;
+  margin: 56px 64px 40px 64px;
+}
+
+.grid-header select {
+  margin-top: -1px;
+}
+
+.grid-header select::-ms-expand {
+  border: none;
+  color: #4f5ffe;
+  background: none;
+}
+
+.grid-header select::-ms-expand:hover {
+  background: none;
+}
+
+.grid-header span:first-of-type,
+.grid-header select {
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.grid-header span:first-of-type {
+  color: #012345;
+}
+
+.grid-header span:last-of-type {
+  height: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  display: block;
+  margin: 10px 20px 0 0;
+}
+
+.grid-header span:last-of-type,
+.grid-header select {
+  color: #4f5ffe;
+}
+
+.grid-header select {
+  background-color: #f3f4f7;
+  border: none;
+  margin-right: 717px;
+}
+
+.grid-header select:active .grid-header select:focus {
+  outline: none;
+}
+
+.grid-header button {
+  width: 48px;
+  height: 48px;
+  background: #4959ff;
+  border-radius: 16px;
+  border: none;
+}
+
+@media all and (max-width: 375px){
+  .grid-header {
+    width: 375px;
+    height: 29px;
+    margin: 26px 51px 25px 16px;
+  }
+
+  .grid-header span:first-of-type, .grid-header select {
+    font-size: 24px;
+    line-height: 120%;
+    height: 24px;
+    margin-top: 0;
+  }
+
+  .grid-header select {
+    margin-right: 51px;
+  }
+
+  .grid-header span:last-of-type {
+    font-size: 16px;
+    line-height: 136%;
+    margin: 4.5px 12px 0 0;
+  }
+
+  .grid-header button {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+
+  .grid-header button > svg {
+    width: 12px;
+    height: 12px;
+  }
+}

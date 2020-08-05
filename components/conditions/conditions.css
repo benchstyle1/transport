@@ -1,0 +1,35 @@
+.conditions ul {
+  width: 532px;
+  list-style-position: outside;
+  padding: 0;
+}
+
+.conditions li {
+  width: 508px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 146%;
+  color: #677b8f;
+  margin: 0 0 16px 0;
+  list-style-type: none;
+  text-indent: -28px;
+  padding-left: 26px;
+}
+
+.conditions li::before {
+  color: #f84ab3;
+  content: "•";
+  margin-right: 20px;
+}
+
+@media all and (max-width: 375px) {
+  .conditions, .conditions ul {
+    width: 343px;
+  }
+
+  .conditions li {
+    width: 323px;
+  }
+  
+}

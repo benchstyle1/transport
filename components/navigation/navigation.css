@@ -1,0 +1,124 @@
+.navigation {
+  width: 1312px;
+  height: 56px;
+  display: flex;
+  display: -ms-flexbox;
+  margin: 0 auto 40px auto;
+  padding-top: 48px;
+}
+
+.navigation > span:first-of-type {
+  height: 24px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 152%;
+  color: #677b8f;
+  margin: 16px 288px 0 0;
+}
+
+.navigation > svg:first-of-type {
+  margin: 18px 64.9px 0 0;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+.navigation a > svg {
+  margin: 4px 18px 0 0;
+}
+
+.navigation > svg:nth-of-type(2) {
+  margin: 18px 18px 0 0;
+}
+
+.navigation > svg:nth-of-type(3) {
+  margin: 19px 29px 0 0;
+}
+
+.navigation > svg:last-of-type {
+  margin: 18px 0 0 0;
+}
+
+.navigation span:nth-of-type(2) {
+  height: 24px;
+  display: block;
+  width: 82px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 152%;
+  color: #677b8f;
+  margin: 16px 107px 0 0;
+}
+
+.navigation span:last-of-type {
+  height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 152%;
+  color: #012345;
+  margin: 16px 16px 0 60px;
+}
+
+.navigation img:last-of-type {
+  border-radius: 50%;
+}
+
+#message {
+  margin-left: 107px;
+  display: block;
+}
+
+@media all and (max-width: 375px) {
+  .navigation {
+    width: 375px;
+    height: 56px;
+    margin: 0 auto 8px auto;
+    padding-top: 44px;
+  }
+
+  .navigation a > svg {
+    width: 32px;
+    height: 32px;
+    margin: 12px 0 0 16px;
+  }
+
+  .navigation > svg:first-of-type {
+    width: 69.47px;
+    height: 13.75px;
+    margin: 21px 83.43px 0 12px;
+  }
+
+  .navigation span:nth-of-type(2),
+  .navigation span {
+    display: none;
+  }
+
+  .navigation > svg:nth-of-type(2) {
+    width: 20px;
+    height: 20px;
+    margin: 18px 18.5px 0 0;
+  }
+
+  .navigation > svg:nth-of-type(3) {
+    width: 20px;
+    height: 20px;
+    margin: 18px 20.17px 0 0;
+  }
+
+  .navigation > svg:last-of-type {
+    width: 20px;
+    height: 20px;
+    margin: 18px 0 0 0;
+  }
+
+  .navigation img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 12px 16px 0 24px;
+  }
+}
